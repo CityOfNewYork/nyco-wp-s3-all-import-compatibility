@@ -8,4 +8,4 @@
  */
 // phpcs:enable
 
-require_once plugin_dir_path(__FILE__) . '/wp-s3-pxmi-compatibility/S3PxmiCompatibility.php';
+require_once plugin_dir_path(__FILE__) . '/wp-s3-all-import-compatibility/S3PxmiCompatibility.php';
