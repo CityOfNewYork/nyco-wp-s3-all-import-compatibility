@@ -16,6 +16,8 @@ A developer plugin for WordPress that ensures compatibility between [hummanmade 
 
 ## Initialization
 
+Ensure your S3-Uploads folder is all lowercase, i.e. `s3-uploads`.  Since the folder is case sensitive, `S3-Uploads` will not work.
+
 The [sample autoloader](https://github.com/CityOfNewYork/nyco-wp-s3-all-import-compatibility/blob/master/autoloader-sample.php) contains the basic code required to initialize the plugin. It will add hooks necessary to deactivate S3 Uploads and reactivate when necessary while using WP All Import.
 
 ---
